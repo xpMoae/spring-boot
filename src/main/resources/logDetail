@@ -1,0 +1,5 @@
+	mybatis Field xxxMapper in xxxx required a bean of type 'XXXMapper' that could not be found.
+	spring未扫描到dao接口，启动类加@MapperScan
+
+	Invalid bound statement (not found): com.basic.dao.SuccessionMapper.selectAll
+	mybatis.mapper-locations地址映射错误
