@@ -13,7 +13,7 @@ public interface SuccessionMapper {
     int insert(Succession record);
 
     Succession selectByPrimaryKey(Integer id);
-
+    
     List<Succession> selectAll();
 
     int updateByPrimaryKey(Succession record);

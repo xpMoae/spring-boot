@@ -33,7 +33,7 @@ public class MyScheduler {
         System.out.println("--------scheduler start ! ------------");
         scheduler.start();
 
-        //睡眠
+        //5、睡眠
         TimeUnit.MINUTES.sleep(1);
         scheduler.shutdown();
         System.out.println("--------scheduler shutdown ! ------------");
